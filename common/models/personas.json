@@ -1,34 +1,31 @@
 {
-  "name": "usuario",
+  "name": "personas",
+  "plural": "persons",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "email": {
+    "nombre": {
       "type": "string",
       "required": true,
-      "default": "sadian88@hotmail.com"
+      "default": "nombre"
     },
-    "pass": {
+    "apellido": {
       "type": "string",
-      "default": "mipassword"
-    },
-    "fechaUltimoIngreso": {
-      "type": "date",
       "required": true,
-      "default": "2016-10-10T05:00:00.000Z"
+      "default": "apellido"
     },
-    "estado": {
-      "type": "boolean",
+    "direccion": {
+      "type": "string",
       "required": true,
-      "default": true
+      "default": "direccion"
     },
-    "rolId": {
-      "type": "number",
+    "telefono": {
+      "type": "string",
       "required": true,
-      "default": 1
+      "default": "telefono"
     }
   },
   "validations": [],
