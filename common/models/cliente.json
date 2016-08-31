@@ -1,0 +1,58 @@
+{
+  "name": "Cliente",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ususarioId": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "nombre": {
+      "type": "string",
+      "required": true,
+      "default": "nombreCliente"
+    },
+    "apellidos": {
+      "type": "string",
+      "required": true,
+      "default": "apellidosCliente"
+    },
+    "telefono": {
+      "type": "string",
+      "required": true,
+      "default": "3012727243"
+    },
+    "direccion": {
+      "type": "string",
+      "required": true,
+      "default": "carrera 8f#12-2"
+    },
+    "sexo": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "fechaNacimiento": {
+      "type": "date",
+      "required": true,
+      "default": "2016-10-10T05:00:00.000Z"
+    },
+    "fechaRegistro": {
+      "type": "date",
+      "required": true,
+      "default": "2016-10-10T05:00:00.000Z"
+    },
+    "fechaUltimaActualizacion": {
+      "type": "date",
+      "required": true,
+      "default": "2016-10-10T05:00:00.000Z"
+    }
+  },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}

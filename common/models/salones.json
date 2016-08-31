@@ -1,0 +1,46 @@
+{
+  "name": "Salones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombreSalon": {
+      "type": "string",
+      "required": true,
+      "default": "MiSalon"
+    },
+    "direccion": {
+      "type": "string",
+      "required": true,
+      "default": "calle 21 # 12-10"
+    },
+    "ubicaSalon": {
+      "type": "geopoint",
+      "required": true,
+      "default": {
+        "lat": 334234,
+        "lng": 234234
+      }
+    },
+    "usuarioId": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "horarioId": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "serviciosId": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    }
+  },
+  "validations": [],
+  "acls": [],
+  "methods": {}
+}

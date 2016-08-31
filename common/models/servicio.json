@@ -1,0 +1,29 @@
+{
+  "name": "Servicio",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombreServicio": {
+      "type": "string",
+      "required": true,
+      "default": "miServicio"
+    },
+    "valorServicio": {
+      "type": "number",
+      "required": true,
+      "default": 20000
+    },
+    "estado": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
