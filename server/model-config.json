@@ -14,38 +14,42 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "dblacita"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
     "public": false
   },
   "Cliente": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
     "public": true
   },
   "Salones": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
     "public": true
   },
   "Servicio": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
     "public": true
   },
   "usuario": {
-    "dataSource": "db",
+    "dataSource": "dblacita",
+    "public": true
+  },
+  "personas": {
+    "dataSource": "dblacita",
     "public": true
   }
 }

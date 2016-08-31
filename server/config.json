@@ -21,7 +21,6 @@
     "cors": false,
     "handleErrors": false
   },
-  "loopback-context#per-request": {
-    },
+  "loopback-context#per-request": {},
   "legacyExplorer": false
 }
